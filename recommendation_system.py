@@ -34,7 +34,7 @@ user_items = trainset.ur[trainset.to_inner_uid(user_id)]
 predicted_ratings = [(algo.predict(user_id, item[0]).est, item) for item in user_items]
 recommended_items = sorted(predicted_ratings, key=lambda x: x[0], reverse=True)
 
-# Output top 5 recommendations
-top_5_recommendations = recommended_items[0]
+# Output top recommendation
+top_recommendation = recommended_items[0]
 
-print('Top Recommendation: {}'.format(data.loc[top_5_recommendations[1][0], 'PastActivities']))
+print('Top Recommendation: {}'.format(data.loc[top_recommendation[1][0], 'PastActivities']))
