@@ -38,7 +38,3 @@ Use the chat bar at the bottom of the home page to send and receive messages.
 Navigate to the profile page to view and update your profile information.
 Contributing
 Contributions are welcome! Feel free to open issues and pull requests to improve the app.
-
-
-
-
